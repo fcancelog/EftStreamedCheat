@@ -1,0 +1,38 @@
+﻿  Building 'EftDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Driver.c
+C:\Users\kev\Desktop\GAMEHACKING\EFT HACKING\EftDriver\Driver\ntos.h(1147,2): warning C4273: 'ZwAllocateVirtualMemory': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\km\ntifs.h(29463,1): message : see previous definition of 'ZwAllocateVirtualMemory'
+C:\Users\kev\Desktop\GAMEHACKING\EFT HACKING\EftDriver\Driver\ntos.h(1153,2): warning C4273: 'ZwFreeVirtualMemory': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\km\ntifs.h(29498,1): message : see previous definition of 'ZwFreeVirtualMemory'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(61,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(111,1): warning C4005: '_CRT_STRINGIZE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\km\crt\crtdefs.h(85): message : see previous definition of '_CRT_STRINGIZE'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(114,1): warning C4005: '_CRT_WIDE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\km\crt\crtdefs.h(88): message : see previous definition of '_CRT_WIDE'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(155,1): warning C4005: '__CRTDECL': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\km\crt\crtdefs.h(640): message : see previous definition of '__CRTDECL'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\stdint.h(16,26): warning C4083: expected ')'; found identifier '_VCRUNTIME_DISABLED_WARNINGS'
+Driver.c(88,1): warning C4047: 'function': 'PSIZE_T' differs in levels of indirection from 'PSIZE_T *'
+Driver.c(87,1): warning C4024: 'MmCopyVirtualMemory': different types for formal and actual parameter 7
+Driver.c(106,40): warning C4022: 'PsLookupProcessByProcessId': pointer mismatch for actual parameter 1
+Driver.c(107,40): warning C4022: 'PsLookupProcessByProcessId': pointer mismatch for actual parameter 1
+Driver.c(108,58): warning C4022: 'KeWriteVirtualMemory': pointer mismatch for actual parameter 2
+Driver.c(108,98): warning C4022: 'KeWriteVirtualMemory': pointer mismatch for actual parameter 4
+Driver.c(118,43): warning C4022: 'PsLookupProcessByProcessId': pointer mismatch for actual parameter 1
+Driver.c(119,43): warning C4022: 'PsLookupProcessByProcessId': pointer mismatch for actual parameter 1
+Driver.c(123,88): warning C4022: 'KeWriteVirtualMemory': pointer mismatch for actual parameter 4
+Driver.c(94,35): warning C4100: 'DeviceObject': unreferenced formal parameter
+Driver.c(117,12): warning C4101: 'status': unreferenced local variable
+Driver.c(137,18): warning C4100: 'pRegistryPath': unreferenced formal parameter
+Driver.c(159,95): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'PKSTART_ROUTINE'
+Driver.c(157,68): warning C4100: 'RegistryPath': unreferenced formal parameter
+Driver.c(157,37): warning C4100: 'pDriverObject': unreferenced formal parameter
+Driver.c(162,36): warning C4100: 'DeviceObject': unreferenced formal parameter
+Driver.c(170,35): warning C4100: 'DeviceObject': unreferenced formal parameter
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\kev\Desktop\GAMEHACKING\EFT HACKING\EftDriver\Driver\Driver.c(130): warning C4701: potentially uninitialized local variable 'Status' used
+  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Driver.vcxproj -> C:\Users\kev\Desktop\GAMEHACKING\EFT HACKING\EftDriver\Release\EftDriver.sys
